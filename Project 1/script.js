@@ -21,6 +21,13 @@ function showSucces(input) {
     const formControl = input.parentElement;
     formControl.className = 'form-control success';
 }
+// function to check email is valid
+function isValidEmail(email) {
+    // JS email regex (Regular Expressions)
+
+}
+
+
 // Get event listener for submit button
 form.addEventListener('submit', function (e) {
     e.preventDefault();  // Stop page from reloading on submit button
