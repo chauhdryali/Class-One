@@ -6,7 +6,7 @@
 }
 
 *{
-    box-sizing: border-box;
+    box-sizing: border-box; /*For leveling the margin & padding throughout the page*/
 }
 
 body{
@@ -14,7 +14,7 @@ body{
     background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Poppins', sans-serif;
-    display: flex;
+    display: flex; /*Allows to divide the content vertically & horizontally*/
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -55,7 +55,7 @@ h2 {
     border-radius: 5px;
     border: 2px solid #777;
 }
-
+ /*Pseudo Selector*/
 .form-control input:focus {
     outline: 0;
     border-color: #777;
@@ -71,8 +71,7 @@ h2 {
 
 .form-control small {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    color: var(--error);
     visibility: hidden;
 }
 
